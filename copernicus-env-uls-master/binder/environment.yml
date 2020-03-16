@@ -1,0 +1,27 @@
+name: copernicus-env-uls
+channels:
+  - conda-forge
+  - anaconda
+  - conda-forge/label/gcc7
+  - flynn
+  - bioconda
+dependencies:
+  - python
+  - basemap
+  - basemap-data-hires
+  - cartopy
+  - folium
+  - ftputil
+  - libnetcdf>=4.6.1
+  - matplotlib
+  - netcdf4>=1.4.2
+  - netcdf-fortran>=4.4.4
+  - numpy
+  - pandas
+  - pip 
+  - scipy
+  - seaborn
+  - xarray
+  - pip:
+    - motuclient>=1.8.1
+    - jupyter-contrib-nbextensions
